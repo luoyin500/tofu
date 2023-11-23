@@ -140,7 +140,7 @@ word demangleSymbol(const char* sn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-} // End namespace Foam
+//} // End namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #ifndef __CYGWIN__
@@ -268,5 +268,5 @@ void Foam::error::safePrintStack(std::ostream& os)
 }
 
 #endif
-
+}
 // ************************************************************************* //

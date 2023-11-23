@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPstream.a  CMakeFiles/Pstream.dir/UPstream.cpp.o CMakeFiles/Pstream.dir/UIPread.cpp.o CMakeFiles/Pstream.dir/UOPwrite.cpp.o
+/usr/bin/ranlib libPstream.a

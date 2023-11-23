@@ -584,7 +584,7 @@ meshes/data/data.cpp
 )
 
 add_library(OpenFOAM SHARED ${SOURCE_FILES_OPENFOAM})
-target_link_libraries(OpenFOAM OSSpecific Pstream z)
+target_link_libraries(OpenFOAM OSSpecific Pstream z pthread dl)
 
 add_custom_command(TARGET OpenFOAM
                    POST_BUILD
